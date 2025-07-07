@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ICLR 2025 Workshop on Multi-Turn Interactions in Large Language Models</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+  <style>
+    .schedule-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      margin: 20px 0;
+    }
+    .schedule-table th,
+    .schedule-table td {
+      padding: 12px 15px;
+      border-bottom: 1px solid #ccc;
+      text-align: left;
+    }
+    .schedule-table th {
+      background-color: #f7f7f7;
+      font-weight: bold;
+    }
+    .schedule-table tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    .schedule-table tbody tr:hover {
+      background-color: #f1f1f1;
+    }
+    /* 响应式设计 */
+    @media (max-width: 768px) {
+      .schedule-table th,
+      .schedule-table td {
+        padding: 10px;
+      }
+    }
+    
+    /* Unified organizer image styles */
+    #organizers .speaker img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    
+    /* Unified speaker image styles */
+    #speakers .speaker img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+  </style>
+  </head>
+
+<body>
+
+  <header id="header" class="d-flex align-items-center ">
+    <div class="container-fluid container-xxl d-flex align-items-center">
+
+      <div id="logo" class="me-auto">
+        <a href="index.html" class="scrollto"><img src="assets/img/logo.png" alt="" title=""></a>
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#schedule">Schedule</a></li>
+          <li><a class="nav-link scrollto" href="#topic">Topics</a></li>
+          <li><a class="nav-link scrollto" href="#cfp">Call for Papers</a></li>
+          <li><a class="nav-link scrollto" href="#accepted-paper">Accepted Papers</a></li>
+          <li><a class="nav-link scrollto" href="#grant">Student Registration Grant</a></li>
+          <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li>
+          <li><a class="nav-link scrollto" href="#organizers">Organizers</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header><section id="hero">
+    <div class="hero-container" data-aos="zoom-in" data-aos-delay="200">
+              <h1 class="mb-4 pb-0" style="text-transform: none;">
+                
+          Workshop on Multi-Turn Interactions in Foundation Models<br>
+          </h1>
+          <h2 class="mb-4 pb-0" style="text-transform: none; color: white;">
+            NeurIPS 2025<br>
+            December 7, 2025<br>
+            San Diego, California, USA
+          </h2>
+        
+      <div class="social-links" style="margin-top: 25px;">
+        <a href="" target="_blank" rel="noopener noreferrer" style="margin-right: 15px; text-decoration: none; color: #1DA1F2;">
+          Twitter
+        </a>
+        <a href="" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #1DA1F2;">
+          OpenReview
+        </a>
+      </div>
+    </div>
+  </section>
+  <main id="main">
+
+    <section id="about">
+        <div class="container position-relative" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>About The Workshop</h2>
+                    <p style="font-size: 18px;">
+                        The field of AI is entering a <b>new era of interaction</b>, profoundly shaped by the capabilities of Large Language Models (LLMs). While multi-turn interaction has been a long-standing pursuit in AI—from dialogue systems to multi-agent coordination—the advent of LLMs has radically transformed this landscape. These models now engage in complex, long-horizon interactions, process diverse data, and make crucial decisions in dynamic, human-centric scenarios.
+                    </p>
+                    <p style="font-size: 18px;">
+                        This leap forward, however, brings forth <b>critical new research questions and challenges</b> that demand immediate attention:
+                    </p>
+                    <ul style="font-size: 18px;">
+                        <li><b>Multi-Turn RL Learning for Agentic Tasks</b> Learning from complex, interactive environments like GUI agents and tool-use scenarios, given the challenges of sparse rewards.</li>
+                        <li><b>Maintaining Alignment</b> Understanding human values over extended, multi-turn interactions, preventing "loss of alignment" seen in current models.</li>
+                        <li><b>Human-AI Interaction</b> Over time, ensuring models adapt to user goals without compromising safety or fairness.</li>
+                        <li><b>Long-horizon Evaluation</b> For LLMs' long-term capabilities, consistency, and strategic abilities in complex, multi-turn tasks.</li>
+                    </ul>
+                    <p style="font-size: 18px;">
+                        The <b>Workshop on Multi-Turn Interactions in LLMs</b> is designed to be the central forum for addressing these pivotal questions. We invite researchers to contribute to defining the next generation of interactive AI, tackling these core challenges, and charting the course for future advancements in AI reasoning and planning. This workshop will concentrate on key areas where the extended use of LLMs presents both new challenges and opportunities, serving as a platform to discuss and refine methods for future improvements and evaluation for practical LLM use cases.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="schedule" style="padding-top: 20px;">
+        <div class="container" data-aos="fade-up">
+            <div class="section-header">
+                <h2>Schedule</h2>
+                <p>Tentative workshop schedule. All talks include a Q&A session.</p>
+            </div>
+            <style>
+                .schedule-table td.time, .schedule-table th:first-child { white-space: nowrap; }
+                .schedule-table tr.break-row td { background-color: #fff3cd80 !important; }
+                .schedule-table tr.poster-row td { background-color: #d1ecf180 !important; }
+            </style>
+            <div class="table-responsive">
+                <table class="schedule-table table align-middle">
+                    <thead>
+                        <tr>
+                            <th>Time&nbsp;(PDT)</th>
+                            <th>Session</th>
+                            <th>Speaker</th>
+                            <th>Talk&nbsp;Title</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="time">08:50 – 09:00</td>
+                            <td>Opening Remarks</td>
+                            <td colspan="2">Organizers</td>
+                        </tr>
+                        <tr>
+                            <td class="time">09:00 – 09:30</td>
+                            <td>Invited Talk 1</td>
+                            <td>Dawn Song (UC Berkeley)</td>
+                            <td>Challenges in Multi-Turn Safety Alignment</td>
+                        </tr>
+                        <tr>
+                            <td class="time">09:30 – 10:00</td>
+                            <td>Invited Talk 2</td>
+                            <td>Natasha Jaques (UW & Google DeepMind)</td>
+                            <td>Learning from Human-AI Interaction</td>
+                        </tr>
+                        <tr>
+                            <td class="time">10:00 – 10:30</td>
+                            <td>Oral Presentation 1</td>
+                            <td colspan="2">TBA</td>
+                        </tr>
+                        <tr>
+                            <td class="time">10:30 – 11:00</td>
+                            <td>Invited Talk 3</td>
+                            <td>Tim Rocktäschel (UCL & Google Deepmind)</td>
+                            <td>Open-Endedness</td>
+                        </tr>
+                        <tr class="poster-row">
+                            <td class="time">11:00 – 12:00</td>
+                            <td colspan="3">Poster Session 1</td>
+                        </tr>
+                        <tr class="break-row">
+                            <td class="time">12:00 – 13:30</td>
+                            <td colspan="3">Lunch Break</td>
+                        </tr>
+                        <tr>
+                            <td class="time">13:30 – 14:00</td>
+                            <td>Invited Talk 4</td>
+                            <td>Diyi Yang (Stanford)</td>
+                            <td>Multi-Agent Learning</td>
+                        </tr>
+                        <tr>
+                            <td class="time">14:00 – 14:30</td>
+                            <td>Invited Talk 5</td>
+                            <td>Jason Weston (Meta FAIR)</td>
+                            <td>Multi-Turn RL for Agentic Tasks</td>
+                        </tr>
+                        <tr class="poster-row">
+                            <td class="time">14:30 – 15:30</td>
+                            <td colspan="3">Poster Session 2</td>
+                        </tr>
+                        <tr>
+                            <td class="time">15:30 – 16:00</td>
+                            <td>Oral Presentation 2</td>
+                            <td colspan="2">TBA</td>
+                        </tr>
+                        <tr>
+                            <td class="time">16:00 – 16:30</td>
+                            <td>Invited Talk 6</td>
+                            <td>Yu Su (Ohio State University)</td>
+                            <td>Planning Capabilities for GUI Agents Task</td>
+                        </tr>
+                        <tr>
+                            <td class="time">16:30 – 17:30</td>
+                            <td>Panel Discussion</td>
+                            <td colspan="2">Dawn Song, Natasha Jaques, Tim Rocktäschel, Peter Henderson, Diyi Yang, Jason Weston</td>
+                        </tr>
+                        <tr>
+                            <td class="time">17:30 – 17:45</td>
+                            <td>Paper Award & Closing Remarks</td>
+                            <td colspan="2">Organizers</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="topic" class="section-with-bg">
+      <br>
+      <br>
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Topics</h2>
+          <p>The workshop will focus on the following main themes:</p>
+        </div>
+        <section id="topics">
+          <div class="container">
+            <div class="row mb-4">
+              <div class="col-12">
+                <div class="topic-panel interactive-panel p-4 border shadow-sm rounded" style="background: #ffffff;">
+                  <b style="font-size: 18px; color: #343a40;">(1) Multi-Turn Learning with Reinforcement Learning for LLMs:</b>
+                  <p style="color: #6c757d; margin-top: 10px;">
+                    This theme explores the challenges of applying RL to LLMs in long-horizon, interactive settings with external environments like web agents, tool usage, and simulations. A major focus is on addressing sparse rewards and effective credit assignment. We seek new RL methods for LLMs, including adapting algorithms like PPO and GRPO for better long-term planning through intermediate rewards, and improving training stability and rollout efficiency in real-world interactive environments.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-4">
+              <div class="col-12">
+                <div class="topic-panel interactive-panel p-4 border shadow-sm rounded" style="background: #ffffff;">
+                  <b style="font-size: 18px; color: #343a40;">(2) Maintaining Alignment in Long-Term LLM Interactions:</b>
+                  <p style="color: #6c757d; margin-top: 10px;">
+                    While single-turn alignment has seen progress, ensuring LLMs remain aligned and safe over long-term interactions is an open problem, as LLMs have shown increased vulnerability to losing alignment in multi-turn settings compared to single-turn scenarios. This theme focuses on novel challenges and solutions for improving and verifying alignment in extended multi-turn interactions.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-4">
+              <div class="col-12">
+                <div class="topic-panel interactive-panel p-4 border shadow-sm rounded" style="background: #ffffff;">
+                  <b style="font-size: 18px; color: #343a40;">(3) Human-AI Interaction: Coherence, Personalization, and Trust:</b>
+                  <p style="color: #6c757d; margin-top: 10px;">
+                   LLMs enable rich, ongoing human-AI interactions, but this presents challenges in maintaining consistent model personas, accurately tracking and adapting to users' changing goals across sessions, and ensuring personalization does not compromise safety, fairness, or transparency. We encourage research on incorporating social influence skills and personalized dialogues for LLMs in multi-turn settings.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-4">
+              <div class="col-12">
+                <div class="topic-panel interactive-panel p-4 border shadow-sm rounded" style="background: #ffffff;">
+                  <b style="font-size: 18px; color: #343a40;">(4) Evaluation for Long-Term Capabilities of LLMs:</b>
+                  <p style="color: #6c757d; margin-top: 10px;">
+                    Current LLM evaluation often overlooks consistency, stability, strategic ability, and performance degradation over long interactions. This theme calls for work on measuring and predicting performance on complex, multi-turn tasks, identifying accumulating errors or unexpected unsafe behaviors (e.g., advanced jailbreaking or hidden goal changes), and creating test environments that thoroughly assess LLM behavior over long sequences. Existing benchmarks such as GAIA, TravelPlanner, τ-Bench, and ColBench provide initial steps, but robust multi-turn evaluation methods are still needed.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <br>
+      <br>
+    </section>
+    <section id="cfp">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Call For Papers</h2>
+        </div>
+        <p>
+          The <b>Workshop on Multi-Turn Interactions in LLMs @ ICLR 2025</b> invites submissions on the development of novel architectures, algorithms, theoretical analyses, empirical studies, and applications in multi-turn interactions with LLMs. Submissions must present original, unpublished research.
+        </p>
+        <h3>Key Dates</h3>
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fa fa-check"></i></span><b>Suggested Submission Date for Workshop Contributions</b>: August 22, 2025, AoE</li>
+          <li><span class="fa-li"><i class="fa fa-check"></i></span><b>Mandatory Accept/Reject Notification Date</b>: September 22, 2025, AoE</li>
+          <li><span class="fa-li"><i class="fa fa-check"></i></span><b>Workshop Date</b>: December 6 or December 7, 2025</li>
+        </ul>
+        Deadlines are strict and will not be extended under any circumstances. All deadlines follow the <a href="https://time.is/Anywhere_on_Earth">Anywhere on Earth (AoE)</a> timezone.
+        <br>
+        <br>
+        <h3>Submission Site</h3>
+        <p>
+          Submissions will be managed via OpenReview. Papers will remain private during the review process. All authors must maintain up-to-date OpenReview profiles to ensure proper conflict-of-interest management and paper matching. Incomplete profiles may result in desk rejection.  
+          <a href="https://docs.openreview.net/getting-started/creating-an-openreview-profile">Learn how to create an OpenReview profile here</a>.
+          <br>
+          <br>
+          Submit papers through the ICLR 2025 Workshop Submission Portal on OpenReview (<a href="https://openreview.net/group?id=ICLR.cc/2025/Workshop/LLM_Reason_and_Plan#tab-your-consoles" target="_blank">Multi-Turn Interactions in LLMs Workshop Submission Portal</a>).
+        </p>
+
+        <h3>Scope</h3>
+        We welcome contributions across a broad spectrum of topics related to our themes. Accepted papers will be presented as posters, with a subset selected for oral presentations. The workshop will take place in person at ICLR 2025, with virtual participation options to be confirmed.
+
+        <br>
+        <br>
+        <h3>Submission Guidelines</h3>
+        <h5>Formatting Requirements</h5>
+
+        Submissions must be in English and follow the <a href="https://www.overleaf.com/read/dgcnvnhjxwcg#335f8d">NeurIPS 2025 Workshop LaTeX Template</a>.  
+        <br>
+        <br>
+        Papers must be submitted as a <b>single PDF file</b>:  
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fa fa-check"></i></span><b>Full Papers</b>: at most 8 pages (main text)</li>
+          <li><span class="fa-li"><i class="fa fa-check"></i></span><b>Short Papers</b>: at most 4 pages (main text)</li>
+          <li><span class="fa-li"><i class="fa fa-check"></i></span>References and appendices are not included in the page limit, but the main text must be self-contained. Reviewers are not required to read beyond the main text.</li>
+        </ul>
+
+        <p>Submissions exceeding the page limit will be desk rejected.</p>
+
+        <h5>Anonymity</h5>
+        The workshop follows a <b>double-blind review process</b>. Submissions must be anonymized by removing author names, affiliations, and acknowledgments. Prior work should be cited in the third person. Identifying information, including in supplementary materials, must be omitted.
+        <br>
+        <br>
+        <h5>Dual Submission and Non-Archival Policy</h5>
+        Submissions under review at other venues will be accepted, provided they do not breach any dual-submission or anonymity policies of those venues. Submissions will not be indexed or have archival proceedings.
+        <br>
+        <br>
+        <h5>Transparency</h5>
+        By submitting to the workshop, authors agree that for all accepted papers, the original submission, reviews, and meta-reviews will be made publicly available on OpenReview.
+        <br>
+        <br>
+        <h5>Contact</h5>
+        Email at simon011130@gmail.com
+      </div>
+    </section>
+
+    <br>
+    <br>
+    <!-- <section id="accepted-paper">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Accepted Paper</h2>
+        </div>
+
+        <div class="mb-3" style="border: 1px solid #ddd; border-radius: 5px;">
+          <div style="background-color: #e2eeff; padding: 10px; cursor: pointer; font-weight: 500; display: flex; justify-content: space-between; align-items: center;"
+            data-bs-toggle="collapse" data-bs-target="#poster-presentations" aria-expanded="true"
+            aria-controls="poster-presentations">
+            <span>Accepted Papers</span>
+            <i class="bi bi-chevron-up"></i>
+          </div>
+          <div class="collapse" id="poster-presentations">
+            <div style="padding: 15px;">
+              <ul id="posterList" style="margin-bottom: 0;"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <br>
+    <br>
+    <section id="grant">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Student Registration Grant</h2>
+        </div>
+        <p>
+          We are excited to offer a limited number of free full conference, "student early" registrations for ICLR 2025, exclusively for full-time students attending in person. This initiative aims to support early-career researchers while fostering diversity, equity, and inclusion (DEI) in the academic community.
+        </p>
+        <h3>Selection Criteria</h3>
+        <p>
+          Applications will be evaluated based on the strength of the submitted materials (see details below). Priority will be given to students presenting papers at our workshop who lack alternative travel support.
+        </p>
+        <h3>How to Apply</h3>
+        <p>
+          Interested students must complete the application form <a href="https://forms.gle/6Q7ZVV7TeHAL6pPG8">here</a> by <b>11:59pm (AoE) on March 5, 2025</b>, which includes the following:
+        </p>
+        <ul>
+          <li><b>Personal &amp; Academic Details</b>: Name, affiliation, and relevant academic information</li>
+          <li><b>CV/Resume</b></li>
+          <li><b>Paper ID</b>: Accepted or submitted to our workshop</li>
+          <li><b>Statement of Interest</b>: A brief paragraph explaining how this opportunity will benefit your research and career</li>
+          <li><b>Attendance Confirmation</b>: A clear statement confirming that you will attend in person</li>
+        </ul>
+        <h3>Important Notes</h3>
+        <ul>
+          <li>Awardees will be announced in March 10, 2025</li>
+          <li>If you have already registered, please submit your receipt, and we will provide further instructions</li>
+          <li>Travel and accommodations must be arranged independently—this grant covers registration only</li>
+        </ul>
+        <p>
+          This opportunity is highly competitive, and we encourage all eligible students to apply early!
+        </p>
+
+        <h3>Registration Grant Recipients</h3>
+        <ul>
+          TBA
+        </ul>
+      </div>
+    </section>
+
+    <section id="speakers" class="section-with-bg">
+        <div class="container" data-aos="fade-up">
+            <div class="section-header">
+                <h2>Speakers and Panelists</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="speaker" data-aos="fade-up" data-aos-delay="100" style="text-align: center;">
+                        <img src="assets/img/speakers/dawn_song.jpg" alt="Dawn Song" class="img-fluid">
+                        <br><a href="https://dawnsong.io/" style="font-size: 1.2em; color: #00356B;">Dawn Song</a></br>
+                        <p>UC Berkeley<br>(AI Safety)</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="speaker" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+                        <img src="assets/img/speakers/jason_weston.jpg" alt="Jason Weston" class="img-fluid">
+                        <br><a href="https://www.thespermwhale.com/jaseweston/" style="font-size: 1.2em; color: #00356B;">Jason Weston</a></br>
+                        <p>Meta FAIR & NYU<br>(Reasoning and Planning for Agents)</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="speaker" data-aos="fade-up" data-aos-delay="300" style="text-align: center;">
+                        <img src="assets/img/speakers/tim_rocktaschel.jpg" alt="Tim Rocktäschel" class="img-fluid">
+                        <br><a href="https://rockt.ai/" style="font-size: 1.2em; color: #00356B;">Tim Rocktäschel</a></br>
+                        <p>UCL & Google DeepMind<br>(Open-Endedness Learning)</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="speaker" data-aos="fade-up" data-aos-delay="100" style="text-align: center;">
+                        <img src="assets/img/speakers/diyi_yang.jpg" alt="Diyi Yang" class="img-fluid">
+                        <br><a href="https://cs.stanford.edu/~diyiy/" style="font-size: 1.2em; color: #00356B;">Diyi Yang</a></br>
+                        <p>Stanford University<br>(Human-Centered NLP)</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="speaker" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+                        <img src="assets/img/speakers/peter_henderson.jpg" alt="Peter Henderson" class="img-fluid">
+                        <br><a href="https://www.peterhenderson.co/" style="font-size: 1.2em; color: #00356B;">Peter Henderson</a></br>
+                        <p>Princeton University<br>(Safe AI for Law & Policy)</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="speaker" data-aos="fade-up" data-aos-delay="300" style="text-align: center;">
+                        <img src="assets/img/speakers/natasha_jaques.jpg" alt="Natasha Jaques" class="img-fluid">
+                        <br><a href="https://natashajaques.ai/" style="font-size: 1.2em; color: #00356B;">Natasha Jaques</a></br>
+                        <p>UW & Google DeepMind<br>(Social Reinforcement Learning)</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="speaker" data-aos="fade-up" data-aos-delay="100" style="text-align: center;">
+                        <img src="assets/img/speakers/yu_su.jpg" alt="Yu Su" class="img-fluid">
+                        <br><a href="https://ysu1989.github.io/" style="font-size: 1.2em; color: #00356B;">Yu Su</a></br>
+                        <p>Ohio State University<br>(GUI Agents)</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-6">
+                  <div class="speaker" data-aos="fade-up" data-aos-delay="100" style="text-align: center;">
+                      <img src="assets/img/speakers/hannah_rose.jpeg" alt="Hannah Rose Kirk" class="img-fluid">
+                      <br><a href="https://www.hannahrosekirk.com/" style="font-size: 1.2em; color: #00356B;">Hannah Rose Kirk</a></br>
+                      <p>University of Oxford<br>(Human-Value Alignment)</p>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="organizers">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Organizers</h2>
+          <p>This workshop is organized by</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg col-md-4 col-sm-6 col-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+              <img src="assets/img/organizers/simon_yu.jpeg" alt="Simon Yu" class="img-fluid">
+              <br><a href="https://simonucl.github.io/" style="font-size: 1.2em; color: #00356B;">Simon Yu</a></br>
+              <p>Northeastern University</p>
+            </div>
+          </div>
+          <div class="col-lg col-md-4 col-sm-6 col-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+              <img src="assets/img/organizers/bo_liu.jpg" alt="Bo Liu" class="img-fluid">
+              <br><a href="https://benjamin-eecs.github.io/" style="font-size: 1.2em; color: #00356B;">Bo Liu</a></br>
+              <p>National University of Singapore / Meta</p>
+            </div>
+          </div>
+           <div class="col-lg col-md-4 col-sm-6 col-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+              <img src="assets/img/organizers/yifei_zhou.png" alt="Yifei Zhou" class="img-fluid">
+              <br><a href="https://yifeizhou02.github.io/" style="font-size: 1.2em; color: #00356B;">Yifei Zhou</a></br>
+              <p>UC Berkeley / xAI</p>
+            </div>
+          </div>
+          <div class="col-lg col-md-4 col-sm-6 col-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+              <img src="assets/img/organizers/mickel_liu.png" alt="Mickel Liu" class="img-fluid">
+              <br><a href="https://mickel-liu.github.io/" style="font-size: 1.2em; color: #00356B;">Mickel Liu</a></br>
+              <p>University of Washington / Google DeepMind</p>
+            </div>
+          </div>
+           <div class="col-lg col-md-4 col-sm-6 col-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+              <img src="assets/img/organizers/kai_zhang.jpg" alt="Kai Zhang" class="img-fluid">
+              <br><a href="https://drogozhang.github.io/" style="font-size: 1.2em; color: #00356B;">Kai Zhang</a></br>
+              <p>Ohio State University / Meta</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+           <div class="col-lg col-md-4 col-sm-6 col-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+              <img src="assets/img/organizers/hanxu_hu.png" alt="Hanxu Hu" class="img-fluid">
+              <br><a href="https://hanxuhu.github.io/" style="font-size: 1.2em; color: #00356B;">Hanxu Hu</a></br>
+              <p>University of Zurich / Microsoft Research Asia</p>
+            </div>
+          </div>
+           <div class="col-lg col-md-4 col-sm-6 col-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+              <img src="assets/img/organizers/leon_guertler.jpg" alt="Leon Guertler" class="img-fluid">
+              <br><a href="https://scholar.google.com/citations?user=FMO0YSYAAAAJ&hl=en" style="font-size: 1.2em; color: #00356B;">Leon Guertler</a></br>
+              <p>Singapore A*STAR</p>
+            </div>
+          </div>
+           <div class="col-lg col-md-4 col-sm-6 col-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+              <img src="assets/img/organizers/leshem_choshen.avif" alt="Leshem Choshen" class="img-fluid">
+              <br><a href="https://ktilana.wixsite.com/leshem-choshen" style="font-size: 1.2em; color: #00356B;">Leshem Choshen</a></br>
+              <p>MIT / MIT-IBM Watson AI Lab</p>
+            </div>
+          </div>
+           <div class="col-lg col-md-4 col-sm-6 col-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+              <img src="assets/img/organizers/weiyan_shi.jpg" alt="Weiyan Shi" class="img-fluid">
+              <br><a href="https://wyshi.github.io/" style="font-size: 1.2em; color: #00356B;">Weiyan Shi</a></br>
+              <p>Northeastern University</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br>
+    <br>
+
+  </main><footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        </div>
+      <div class="credits">
+        Template adopted from <a href="https://set-llm.github.io/">SeT LLM @ ICLR 2024</a>
+      </div>
+    </div>
+  </footer><a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    // This example assumes accepted_paper.json is located in the same directory as your HTML file.
+    // Adjust the path as necessary.
+    fetch('accepted_paper.json')
+      .then(response => response.json())
+      .then(data => {
+        const posterList = document.getElementById('posterList');
+        
+        // In the snippet, the data in accepted_paper.json is an object with a "notes" array
+        // that holds the accepted papers
+        const notes = data.notes;  // e.g. data.notes = [{ content: {...}, ...}, ...]
+
+        notes.forEach(item => {
+          const title = item.content.title.value;
+          // Authors may be stored as an array in item.content.authors.value or a single string, depending on your JSON
+          // If it's an array, join them
+          const authorsVal = item.content.authors.value;
+          let authors = Array.isArray(authorsVal) ? authorsVal.join(", ") : authorsVal;
+
+          const li = document.createElement('li');
+          li.innerHTML = `
+            <b>${title}</b><br>
+            Authors: ${authors}
+          `;
+          posterList.appendChild(li);
+
+          // Add some spacing after each paper
+          const br = document.createElement('br');
+          posterList.appendChild(br);
+        });
+      })
+      .catch(error => {
+        console.error('Error loading accepted_paper.json:', error);
+      });
+  </script>
+
+  <a href="https://info.flagcounter.com/fIO5"><img src="https://s05.flagcounter.com/count2/fIO5/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_20/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+
+</body>
+
+</html>
